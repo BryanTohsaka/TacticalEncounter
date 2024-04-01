@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.menu-items li{
+  @apply mx-5 text-neutral-500 hover:text-red-500 transition duration-300;
+}
+body{
+  background-color: #010101;
+  font-family: 'Montserrat';
+}
