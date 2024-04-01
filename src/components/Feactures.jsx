@@ -17,7 +17,7 @@ const Feactures = () => {
       </div>
       <div className="flex justify-between mt-64">
         <div className="w-1/2 mr-10 text-white">
-          <h2 className="mb-3 font-bold text-[36px]">Acción Estratégica en <br /> Cada Jugada</h2>
+          <h2 className="mb-3 font-bold text-[36px]">Acción Estratégica en <br />Cada Jugada</h2>
           <p className="mb-10">
             Tactical Encounters te ofrece la oportunidad de experimentar la emoción y la intensidad de las mejores películas de acción. Desde enfrentamientos épicos en las junglas más salvajes hasta combates en el espacio sideral, cada partida es una aventura llena de adrenalina.
             <br /> <br />
