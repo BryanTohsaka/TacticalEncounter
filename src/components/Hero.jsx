@@ -1,9 +1,9 @@
-
+import Herobanner from '../assets/hero.webp'
 
 const Hero = () => {
   return (
     <>
-      <div className="hero-bg w-full h-screen">
+      <div className="bgHero w-full h-screen">
         <div className=" text-white z-10 lg:w-2/3 ml-10 lg:ml-32 h-screen flex flex-col justify-center gap-2">
           <h1 className="text-5xl lg:text-8xl font-bold">Ya no estás en Kansas…</h1>
           <p className=" font-semibold text-xl lg:text-2xl mb-3 mt-5">¡Bienvenido a Tactical Encounters!</p>

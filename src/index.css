@@ -26,3 +26,6 @@ body{
     @apply bg-HeroMobile
   }
 }
+.bgHero{
+  background-image: url(./assets/hero.webp) ;
+}
