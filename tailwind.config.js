@@ -8,6 +8,7 @@ export default {
     extend: {
       backgroundImage:{
         'Hero': "url('src/assets/hero.webp')",
+        'HeroMobile': "url('src/assets/hero-mobile.webp')",
         'Feactures': "url('src/assets/feactures.webp')"
       }
     },
