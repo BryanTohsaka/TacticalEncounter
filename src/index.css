@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 .menu-items li{
   @apply mx-5 text-neutral-500 hover:text-red-500 transition duration-300;
@@ -11,8 +12,10 @@
   @apply my-8 text-white text-xl md:text-2xl font-normal hover:font-bold transition-all duration-300 hover:scale-105
 }
 body{
-  background-color: #010101;
-  font-family: 'Montserrat';
+  background-color: #000;
+}
+html{
+  font-family: "Montserrat";
 }
 .menu-transition {
   transition: transform 0.3s ease-in-out;
