@@ -12,7 +12,7 @@ const Hero = () => {
       </div>
 
       <div className="bg-gradient-to-br from-yellow-600 to-gray-900/0 w-full h-screen">
-        <div className="hero-bg"></div>
+        <div className="hero-bg">.</div>
       </div>
     </>
   );
