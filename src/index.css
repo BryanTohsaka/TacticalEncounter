@@ -34,3 +34,16 @@ html{
     background-size: cover;
   }
 }
+
+.faction-card{
+  @apply w-full rounded-lg overflow-hidden h-96  relative 
+}
+.faction-card img{
+  @apply object-cover w-full h-full
+}
+.faction-blur{
+  @apply w-full h-full bg-black/60 opacity-0 transition-all duration-300 hover:opacity-100 backdrop-blur-md absolute text-white flex justify-center items-center
+}
+.faction-blur p{
+  @apply text-2xl font-bold uppercase text-center
+}
