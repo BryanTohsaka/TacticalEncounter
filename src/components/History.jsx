@@ -6,7 +6,7 @@ import Navbar from './Navbar';
 const History = () => {
   const { name } = useParams();
   const faction = factions.find((faction) => faction.name === name);
-  const imgRute ='../../src/assets/'
+  const imgRute ='../assets/'
 
   if (!faction) {
     return <div>Faction data not found</div>;
