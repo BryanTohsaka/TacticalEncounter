@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import factions from './factions.json'
 import Navbar from './Navbar';
+import img1 from '../assets/gigerianus.webp'
 
 const History = () => {
   const { name } = useParams();
@@ -21,7 +22,7 @@ const History = () => {
       <div >
         <h1 className='text-4xl font-bold text-white'>{faction.title}</h1>
         <p className='text-slate-400 font-medium'>{faction.content}</p>
-        <img src={`${imgRute}${faction.img1}`} alt="" />
+        <img src={img1} alt="" />
       </div>
     </>
     
