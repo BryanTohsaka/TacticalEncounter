@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../assets/tactical.png";
 import { IoMenuOutline, IoClose } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +19,7 @@ const Navbar = () => {
       <div className={`bg-neutral-900/70 backdrop-blur-xl w-2/3 h-screen fixed z-20 right-0 flex justify-center items-center lg:hidden transform transition-all duration-300 ${isMenuOpen ? "translate-x-0" : "translate-x-full"}`} id="sm-menu">
         <ul className="menu-items-mobile">
           <li>
-            <a href="#" onClick={handleMenuItemClick}>Acerca del juego</a>
+            <Link to="/history" onClick={handleMenuItemClick}>Acerca del juego</Link>
           </li>
           <li>
             <a href="#" onClick={handleMenuItemClick}>Como jugar</a>
@@ -35,14 +36,14 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="bg-[#010101]/30 backdrop-blur-lg p-5 flex justify-between items-center fixed w-full z-20 border-b-[1px] border-neutral-700">
-        <a href="#">
+        <Link to="/">
           <img src={logo} alt="tactical encounters logo" className="w-24 lg:w-48" />
-        </a>
+        </Link>
 
         <div className="" id="lg-menu">
           <ul className="menu-items lg:inline-flex hidden">
             <li>
-              <a href="#">Acerca del juego</a>
+              <Link to="/history">Acerca del juego</Link>
             </li>
             <li>
               <a href="#">Como jugar</a>

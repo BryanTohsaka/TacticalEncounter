@@ -47,3 +47,16 @@ html{
 .faction-blur p{
   @apply text-2xl font-bold uppercase text-center
 }
+.download-btn{
+  @apply text-white uppercase bg-lime-600 px-6 py-3 rounded-lg font-bold
+}
+.patreon-btn{
+  @apply text-white uppercase bg-orange-700 px-6 py-3 rounded-lg font-bold
+}
+.shop-btn{
+  @apply text-white uppercase bg-rose-700 px-6 py-3 rounded-lg font-bold
+}
+.manual-section{
+  @apply lg:bg-gradient-to-r from-black to-sky-900
+          bg-gradient-to-b 
+}
