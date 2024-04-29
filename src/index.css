@@ -60,3 +60,7 @@ html{
   @apply lg:bg-gradient-to-r from-black to-sky-900
           bg-gradient-to-b 
 }
+.cover{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
