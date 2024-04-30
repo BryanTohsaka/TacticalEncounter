@@ -9,7 +9,15 @@
             "dest": "/"
         },
         {
-            "src": "/history/:name",
+            "src": "/history/humanos",
+            "dest": "/"
+        },
+        {
+            "src": "/history/venyator",
+            "dest": "/"
+        },
+        {
+            "src": "/history/gigerianus",
             "dest": "/"
         }
     ]
