@@ -7,6 +7,10 @@
         {
             "src": "/coming-soon",
             "dest": "/"
+        },
+        {
+            "src": "/history/:name",
+            "dest": "/"
         }
     ]
 }
