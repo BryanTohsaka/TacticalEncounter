@@ -64,3 +64,7 @@ html{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.coming-soon{
+  background: url(./assets/bg-space.webp) center/cover no-repeat;
+  
+}

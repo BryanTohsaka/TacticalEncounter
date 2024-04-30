@@ -52,16 +52,24 @@ const History = () => {
         <p className="text-xl font-regular text-white mt-10">{faction.intro2}</p>
         <div className="lg:flex mt-20">
           {factionImage && <img src={factionImage} alt={faction.title} className="lg:w-1/3 mr-10" />}
-          <p className="text-slate-300 font-medium text-lg ">{faction.content1}</p>
+          <div>
+            <p className="text-slate-300 font-medium text-lg mb-10 ">{faction.content1}</p>
+            <p className="text-slate-300 font-medium text-lg ">{faction.content11}</p>
+          </div>
+          
         </div>
         <p className="text-slate-300 font-medium text-lg mt-10">{faction.content2}</p>
         <div className="flex lg:flex-row flex-col-reverse mt-20">
-          <p className="text-slate-300 font-medium text-lg mr-10">
-            {faction.content1}
-            <a href={faction.rules} className="text-neutral-700 w-fit lg:text-lg text-[.8em] mt-10 mb-10 px-6 py-3 lg:px-10 lg:py-5 rounded-md bg-lime-300 flex justify-center items-center gap-4">
+          <div>
+          <p className="text-slate-300 font-medium text-lg mr-10 mb-10">{faction.content3}</p>
+          <p className="text-slate-300 font-medium text-lg mr-10 mb-10">{faction.content31}</p>
+          <p className="text-slate-300 font-medium text-lg mr-10 mb-10">{faction.content32}</p>
+          <a href={faction.rules} className="text-neutral-700 w-fit lg:text-lg text-[.8em] mt-10 mb-10 px-6 py-3 lg:px-10 lg:py-5 rounded-md bg-lime-300 flex justify-center items-center gap-4">
               Descarga las reglas de facción <IoCloudDownload className="text-xl" />
-            </a>
-          </p>
+          </a>
+          </div>
+          
+          
           {factionImage2 && <img src={factionImage2} alt={faction.title} className="lg:w-1/3 mb-10" />}
         </div>
       </div>

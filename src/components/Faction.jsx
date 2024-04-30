@@ -32,21 +32,21 @@ const Faction = () => {
         <img src={Venyator} alt="" />
       </Link>
 
-      <Link to="/history/citadel" className='faction-card hover:shadow-[0px_0px_89px_0px_#007AD9] '>
+      <Link to="/coming-soon" className='faction-card hover:shadow-[0px_0px_89px_0px_#007AD9] '>
         <div className='faction-blur'>
           <p>Citadel</p>
         </div>
         <img src={Citadel} alt="" />
       </Link>
 
-      <Link to="/history/staynetech"  className='faction-card hover:shadow-[0px_0px_89px_0px_#C1FF73]'>
+      <Link to="/coming-soon"  className='faction-card hover:shadow-[0px_0px_89px_0px_#C1FF73]'>
         <div className='faction-blur'>
           <p>Staynetech</p>
         </div>
         <img src={Staynetech} alt="" />
       </Link>
 
-      <Link to="/history/mercenarios" className='faction-card hover:shadow-[0px_0px_89px_0px_#009E16]'>
+      <Link to="/coming-soon" className='faction-card hover:shadow-[0px_0px_89px_0px_#009E16]'>
         <div className='faction-blur'>
           <p>mercenarios</p>
         </div>
