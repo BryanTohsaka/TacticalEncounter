@@ -1,27 +1,28 @@
 {
-    "images": {
-      "sizes": [256, 640, 1080, 2048, 3840]
-    },
     "routes": [
-      {
-        "src": "/",
-        "dest": "/"
-      },
-      {
-        "src": "/coming-soon",
-        "dest": "/"
-      },
-      {
-        "src": "/history/humanos",
-        "dest": "/"
-      },
-      {
-        "src": "/history/venyator",
-        "dest": "/"
-      },
-      {
-        "src": "/history/gigerianus",
-        "dest": "/"
-      }
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/coming-soon",
+            "dest": "/"
+        },
+        {
+            "src": "/history/humanos",
+            "dest": "/"
+        },
+        {
+            "src": "/history/venyator",
+            "dest": "/"
+        },
+        {
+            "src": "/history/gigerianus",
+            "dest": "/"
+        },
+        {
+            "src": "/assets/*",
+            "dest": "/assets/*"
+        }
     ]
-  }
+}
