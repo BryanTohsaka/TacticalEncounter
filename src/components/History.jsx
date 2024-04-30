@@ -25,7 +25,7 @@ const History = () => {
     };
 
     const loadCover = async () => {
-      const image = await import(`../assets/${faction.cover}`);
+      const image = await import(`${faction.cover}`);
       setCoverImage(image.default);
     };
 
