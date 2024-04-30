@@ -1,0 +1,24 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/coming-soon",
+            "dest": "/"
+        },
+        {
+            "src": "/history/humanos",
+            "dest": "/"
+        },
+        {
+            "src": "/history/venyator",
+            "dest": "/"
+        },
+        {
+            "src": "/history/gigerianus",
+            "dest": "/"
+        }
+    ]
+}
