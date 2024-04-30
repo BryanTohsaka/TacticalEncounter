@@ -20,5 +20,10 @@
             "src": "/history/gigerianus",
             "dest": "/"
         }
-    ]
+    ],
+    "public": {
+        "static": {
+            "directory": "./src/assets"
+        }
+    }
 }
