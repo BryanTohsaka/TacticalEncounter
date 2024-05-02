@@ -20,5 +20,7 @@
             "src": "/history/gigerianus",
             "dest": "/"
         }
-    ]
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false
 }
