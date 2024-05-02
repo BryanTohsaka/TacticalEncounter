@@ -4,7 +4,6 @@ import factions from "./factions.json";
 import Navbar from "./Navbar";
 import { IoCloudDownload } from "react-icons/io5";
 import ScrollTop from "./ScrollTop";
-import venyator from '../assets/Venycover.webp'
 
 const History = () => {
   
@@ -16,20 +15,23 @@ const History = () => {
 
   useEffect(() => {
     const loadImage = async () => {
-      const image = await import(`../assets/${faction.img1}`);
-      setFactionImage(image.default);
+      const response = await fetch(`../assets/${faction.img1}`);
+      const blob = await response.blob();
+      setFactionImage(URL.createObjectURL(blob));
     };
-
+  
     const loadImage2 = async () => {
-      const image = await import(`../assets/${faction.img2}`);
-      setFactionImage2(image.default);
+      const response = await fetch(`../assets/${faction.img2}`);
+      const blob = await response.blob();
+      setFactionImage2(URL.createObjectURL(blob));
     };
-
+  
     const loadCover = async () => {
-      const image = await import(`${faction.cover}`);
-      setCoverImage(image.default);
+      const response = await fetch(`../assets/${faction.cover}`);
+      const blob = await response.blob();
+      setCoverImage(URL.createObjectURL(blob));
     };
-
+  
     loadImage();
     loadImage2();
     loadCover();
