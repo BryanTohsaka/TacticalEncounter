@@ -27,7 +27,7 @@ const History = () => {
     };
   
     const loadCover = async () => {
-      const response = await fetch(`https://tactical-encounter-seven.vercel.app/assets/${faction.cover}`);
+      const response = await fetch(`${faction.cover}`);
       const blob = await response.blob();
       setCoverImage(URL.createObjectURL(blob));
     };
