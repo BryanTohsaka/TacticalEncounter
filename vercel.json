@@ -1,40 +1,24 @@
 {
-    "rewrites": [
-      {
-        "source": "/",
-        "destination": "/"
-      },
-      {
-        "source": "/coming-soon",
-        "destination": "/"
-      },
-      {
-        "source": "/history/humanos",
-        "destination": "/"
-      },
-      {
-        "source": "/history/venyator",
-        "destination": "/"
-      },
-      {
-        "source": "/history/gigerianus",
-        "destination": "/"
-      }
-    ],
-    "public": true,
-    "headers": [
-      {
-        "source": "/assets/(.*)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "public, max-age=31536000, immutable"
-          },
-          {
-            "key": "Access-Control-Allow-Origin",
-            "value": "*"
-          }
-        ]
-      }
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/coming-soon",
+            "dest": "/"
+        },
+        {
+            "src": "/history/humanos",
+            "dest": "/"
+        },
+        {
+            "src": "/history/venyator",
+            "dest": "/"
+        },
+        {
+            "src": "/history/gigerianus",
+            "dest": "/"
+        }
     ]
-  }
+}
