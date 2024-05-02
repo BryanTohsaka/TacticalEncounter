@@ -15,19 +15,19 @@ const History = () => {
 
   useEffect(() => {
     const loadImage = async () => {
-      const response = await fetch(`../assets/${faction.img1}`);
+      const response = await fetch(`/assets/${faction.img1}`);
       const blob = await response.blob();
       setFactionImage(URL.createObjectURL(blob));
     };
   
     const loadImage2 = async () => {
-      const response = await fetch(`../assets/${faction.img2}`);
+      const response = await fetch(`/assets/${faction.img2}`);
       const blob = await response.blob();
       setFactionImage2(URL.createObjectURL(blob));
     };
   
     const loadCover = async () => {
-      const response = await fetch(`./assets/${faction.cover}`);
+      const response = await fetch(`/assets/${faction.cover}`);
       const blob = await response.blob();
       setCoverImage(URL.createObjectURL(blob));
     };
