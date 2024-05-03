@@ -8,8 +8,8 @@
     "content2": "Estas criaturas han evolucionado una durabilidad y habilidad de cacería impresionante, usualmente cazando en manadas se mantienen ocultos hasta el momento en el que es necesario que actúen, más de una vez han infiltrado una ciudad humana e implantado a algún miembro sin que el resto lo sepa, acabando a la larga con esa población humana y utilizándola como alimento de la colonia.",
     "content3":"Los mismos cadáveres de estas criaturas llegan a fungir como extensiones de su proceso reproductivo. Cuando un miembro muere es común ver que surge una nueva criatura del cadáver del miembro, que a su vez buscará implantar un huésped y mantener así las fuerzas de su especie.",
     "content31":"Se desconoce cuáles son las condiciones exactas para que esto suceda. Cada elemento de esta especie está desarrollado para ser una potencial arma, utilizando sus números como fuerza elemental, su sangre es ácida y destruye la mayoría de los tejidos y compuestos que le hemos puesto en frente, el metabolismo interno de las criaturas se regenera constantemente permitiéndoles proteger sus órganos internos de manera constante, evitando que esa sangre los devore internamente.",
-    "img1": "Gigeimg1.webp",
-    "img2": "Gigeimg2.webp",
+    "img1": "Gigeimg1-CKD4eASb.webp",
+    "img2": "Gigeimg2-BVVYfDoj.webp",
     "rules":"#",
     "cover": "Gigecover-BM4qrC8d.webp"
     
@@ -26,10 +26,10 @@
     "content3":"Los cazadores tienen una tecnología mucho más avanzada que la humana, con tecnología de camuflaje que los vuelve virtualmente invisibles al ojo humano, esto los vuelve un cazador perfecto, pudiendo asechar una presa durante días sin que esta se vuelva consciente de su existencia. ",
     "content31":"También llevan máscaras con una interfaz que les permite ver en el espectro infrarrojo o con una visión avanzada según sus necesidades de caza, así como armas con tecnología de rayos térmicos bastante potentes que permiten al cazador acabar con la mayoría de las presas con un solo tiro. A pesar de contar con estos avances tecnológicos y una flota de naves que pueden viajar por el espacio el resto de la tecnología Venyator es bastante limitado. Básicamente, si no sirve para la caza, entonces no se desarrolla.",
     "content32":"La especie se organiza alrededor de tribus o clanes, cada uno con características diferentes y rasgos físicos que varían, se desconoce qué tan grandes llegan a ser los clanes, pero la mayoría no supera los cientos de miembros, al menos según lo que hemos visto en las décadas que hemos convivido con esta especie. ",
-    "img1": "Venyimg1.webp",
-    "img2": "Venyimg2.webp",
+    "img1": "Venyimg1-D3g37eEf.webp",
+    "img2": "Venyimg2-CFk7D5fw.webp",
     "rules":"#",
-    "cover": "Venycover.webp"
+    "cover": "Venycover-DjqGowGm.webp"
   },
   {
     "name": "humanos",
@@ -42,9 +42,9 @@
     "content2": "Los humanos fueron ampliamente cazados durante los meses que siguieron a la caída del arca, si nuestros soldados no perecían devorados y utilizados como alimento para los Gigerianos, sus cráneos terminaban adornando el atuendo de caza de un Venyator, antes se solía decir que la humanidad necesitaba un enemigo común para unirse, pues eso no funcionó demasiado bien, las cabezas de las milicias también terminaron adornando los vehiculos de los Desquiciados, sin embargo, lo que si aprendimos fue que es mejor morir al lado de tus hermanos, que perecer solos, la unión nos hará fuertes y juntos intentaremos sobrevivir, o al menos moriremos como uno.",
     "content3":"La Red de Defensa Humana compartía los protocolos de transporte, debíamos de asegurarnos de que los camiones enormes que transportaban los componentes para construir las nuevas ciudades llegaran a su destino de manera exitosa. ",
     "content31":"Un miembro de la Red sabe que su deber no está en la construcción, no es uno de los cuerpos de ingenieros que cooperará para la construcción de las nuevas ciudades, ni siquiera un médico que mantendrá y procurará vidas humanas, un administrativo de logística o cerebrito programador. Un miembro de la red hace lo que tiene que hacer para defender la vida humana y en esta nueva tierra eso es pelear. Pelear contra los saqueadores que intentan robar y desmantelar las caravanas, pelear contra las criaturas que intentan consumir los campamentos mientras la ciudad se alza, pelear contra todo enemigo que se interponga entre la humanidad y su nuevo destino. Un miembro de la red peleará hasta el día en que muera. ",
-    "img1": "Humanimg1.webp",
-    "img2": "Humanimg2.webp",
+    "img1": "Humanimg1-D-RZfBNu.webp",
+    "img2": "Humanimg2-D_I1clzg.webp",
     "rules":"#",
-    "cover": "Humancover.webp"
+    "cover": "Humancover-5CWB91Pc.webp"
   }
 ]
