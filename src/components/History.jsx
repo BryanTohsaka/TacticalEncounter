@@ -10,7 +10,7 @@ import Gimg2 from "../assets/Gigeimg2.webp";
 import Venycover from "../assets/Venycover.webp";
 import Vimg1 from "../assets/Venyimg1.webp";
 import Vimg2 from "../assets/Venyimg2.webp";
-import Humancover from "../assets/Humancover"
+import Humancover from "../assets/Humancover.webp"
 import Himg1 from "../assets/Humanimg1.webp";
 import Himg2 from "../assets/Humanimg2.webp";
 
