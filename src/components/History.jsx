@@ -4,6 +4,7 @@ import factions from "./factions.json";
 import Navbar from "./Navbar";
 import { IoCloudDownload } from "react-icons/io5";
 import ScrollTop from "./ScrollTop";
+import Gigecover from "../assets/Gigecover.webp"
 
 const History = () => {
   
