@@ -4,7 +4,15 @@ import factions from "./factions.json";
 import Navbar from "./Navbar";
 import { IoCloudDownload } from "react-icons/io5";
 import ScrollTop from "./ScrollTop";
-import Gigecover from "../assets/Gigecover.webp"
+import Gigecover from "../assets/Gigecover.webp";
+import Gimg1 from "../assets/Gigeimg1.webp";
+import Gimg2 from "../assets/Gigeimg2.webp";
+import Venycover from "../assets/Venycover.webp";
+import Vimg1 from "../assets/Venyimg1.webp";
+import Vimg2 from "../assets/Venyimg2.webp";
+import Humancover from "../assets/Humancover"
+import Himg1 from "../assets/Humanimg1.webp";
+import Himg2 from "../assets/Humanimg2.webp";
 
 const History = () => {
   
@@ -16,13 +24,13 @@ const History = () => {
 
   useEffect(() => {
     const loadImage = async () => {
-      const response = await fetch(`assets/${faction.img1}`);
+      const response = await fetch(`../assets/${faction.img1}`);
       const blob = await response.blob();
       setFactionImage(URL.createObjectURL(blob));
     };
   
     const loadImage2 = async () => {
-      const response = await fetch(`assets/${faction.img2}`);
+      const response = await fetch(`../assets/${faction.img2}`);
       const blob = await response.blob();
       setFactionImage2(URL.createObjectURL(blob));
     };
